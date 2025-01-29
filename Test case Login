@@ -1,1 +1,41 @@
+# Test Case: Verify Successful Login with Valid Credentials
 
+*Test Case ID:* TC_LOGIN_001  
+*Module:* User Authentication  
+*Priority:* High  
+*Precondition:* User must have a valid account  
+*Test Environment:* Chrome 114+, Windows 10  
+
+---
+
+## Test Steps:
+1. เปิดหน้า Login ที่ URL: https://example.com/login
+2. ป้อน *Username:* user@example.com
+3. ป้อน *Password:* Password123
+4. คลิกปุ่ม *Login*
+5. ตรวจสอบว่า Dashboard ถูกแสดง
+
+---
+
+## Expected Result:
+- ระบบแสดงหน้า Dashboard พร้อมข้อความ "Welcome, User!"  
+- ไม่มีข้อผิดพลาดแสดงบนหน้าจอ  
+
+---
+
+## Test Data:
+| Test Data Field | Test Value           |
+|-----------------|----------------------|
+| Username        | user@example.com     |
+| Password        | Password123          |
+
+---
+
+## Actual Result:
+- (บันทึกผลจริงหลังทดสอบ)
+
+## Status:
+- (Pass/Fail/Blocked)
+
+## Notes:
+- หาก Fail ให้แนบรายละเอียด Bug หรือ Screenshot จดลง Log Defect
